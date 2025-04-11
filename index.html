@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Atelier des Vers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="bloc-notes.png" />
+</head>
+<body>
+    <div class="container">
+        <img src="bloc-notes.png" class="image">
+        <h1>L'Atelier des Vers des 4°1</h1>
+        
+        <button id="generate-random">Générer un poème aléatoire</button>
+        
+        <div class="manual-selection">
+            <h2>Composer un poème</h2>
+            <select id="part1-select">
+                <option value="">Sélectionnez la partie 1</option>
+            </select>
+            <select id="part2-select">
+                <option value="">Sélectionnez la partie 2</option>
+            </select>
+            <button id="generate-manual">Assembler et exporter</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
